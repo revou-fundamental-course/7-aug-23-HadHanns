@@ -1,0 +1,68 @@
+<!-- HADDAD HANNAN SRG -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Triangle Calculator</title>
+</head>
+<body style="text-align: center;">
+    <div class="container">
+    
+        <h1 style="text-align: center;">Triangle Area and Perimeter Calculator</h1>
+        <h3 style="text-align: center;">Hey! I'm Haddad Hannan SRG</h3>
+        <br>
+        <p style="text-align: center;"> This is Basic Web Tool for Calculating Triangle Area and Perimeter</p>
+        <br>
+
+
+    <button id="showButton" >Show Calculator Triangle Area</button>
+    <div class="card" id="calculatorCard">
+    <h2>Kalkulator Luas Segitiga</h2>
+    <br>
+    <img src="triangle.png" alt="Gambar Contoh" width="200" height="150">
+    <br>
+    <br>
+    <p>Rumus luas segitiga adalah:</p>
+    <p><strong>Luas = (Alas × Tinggi) / 2</strong></p>
+    <br>
+    <label for="base">Panjang Alas : </label>
+    <input type="number" id="base" placeholder="Panjang Alas"><br>
+    <label for="height">Panjang Tinggi: </label>
+    <input type="number" id="height" placeholder="Tinggi"><br>
+    <br>
+    <button id="calculateButton">Hitung Luas</button>
+    
+    <p id="result"></p>
+    </div>
+
+
+    <button id="showBtn"  style="gap: 12px;">Show Calculator Triangle Perimeter</button>
+    <div class="card" id="calcCard">
+    <h2>Kalkulator Keliling Segitiga</h2>
+    <br>
+    <br>
+    <img src="triangle.png" alt="Gambar Contoh" width="200" height="150">
+    <br>
+    <p>Rumus keliling segitiga adalah:</p>
+    <p><strong>Keliling = Sisi A + Sisi B + Sisi C</strong></p>
+    <br>
+    <label for="s1">Sisi 1: </label>
+    <input type="number" id="s1" placeholder="Sisi 1"><br>
+    <label for="s2">Sisi 2: </label>
+    <input type="number" id="s2" placeholder="Sisi 2"><br>
+    <label for="s3">Sisi 3: </label>
+    <input type="number" id="s3" placeholder="Sisi 3"><br>
+    <br>
+    <button id="calcBtn">Hitung Keliling</button>
+    
+    <p id="result2"></p>
+    </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
